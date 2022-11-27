@@ -1,0 +1,103 @@
+{
+  "name": "CoFantasy",
+  "title": "Chroniques Oubliées Fantasy",
+  "description": "Compendiums complet Chroniques Oubliées Fantasy",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9.269",
+  "system": [
+    "cof"
+  ],
+  "author": "Fumble",
+  "version": "#{VERSION}#",
+  "packs": [
+    {
+      "name": "capacities",
+      "label": "Capacités",
+      "system": "cof",
+      "path": "./packs/capacities.db",
+      "type": "Item",
+      "tag": "capacity"
+    },
+    {
+      "name": "encounters",
+      "label": "Rencontres",
+      "system": "cof",
+      "path": "./packs/encounters.db",
+      "type": "Actor",
+      "tag": "encounter"
+    },
+    {
+      "name": "encounters-capacities",
+      "label": "Capacités des rencontres",
+      "system": "cof",
+      "path": "./packs/encounters-capacities.db",
+      "type": "Item",
+      "tag": "capacity"
+    },
+    {
+      "name": "encounters-paths",
+      "label": "Voies des rencontres",
+      "system": "cof",
+      "path": "./packs/encounters-paths.db",
+      "type": "Item",
+      "tag": "path"
+    },
+    {
+      "name": "items",
+      "label": "Equipement",
+      "system": "cof",
+      "path": "./packs/items.db",
+      "type": "Item",
+      "tag": "item"
+    },
+    {
+      "name": "paths",
+      "label": "Voies",
+      "system": "cof",
+      "path": "./packs/paths.db",
+      "type": "Item",
+      "tag": "path"
+    },
+    {
+      "name": "profiles",
+      "label": "Profils",
+      "system": "cof",
+      "path": "./packs/profiles.db",
+      "type": "Item",
+      "tag": "profile"
+    },
+    {
+      "name": "species",
+      "label": "Races",
+      "system": "cof",
+      "path": "./packs/species.db",
+      "type": "Item",
+      "tag": "species"
+    },
+    {
+      "name": "spells",
+      "label": "Sorts",
+      "system": "cof",
+      "path": "./packs/spells.db",
+      "type": "Item",
+      "tag": "spell"
+    },
+    {
+      "name": "tables",
+      "label": "Tables",
+      "system": "cof",
+      "path": "./packs/tables.db",
+      "type": "RollTable",
+      "tag": "table"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "compendium-folders"
+    }
+  ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "readme": "README.md"
+}
